@@ -1,0 +1,118 @@
+.navbar,footer{
+    background-color:#860301 !important;
+    color: #967956;
+    text-align: center;
+    
+}
+.footer{
+    background-color:#860301
+}
+.sectionTwo-form{
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+}
+
+    
+.container-fluid-banner{
+    background-attachment: fixed;
+    text-align: center;
+        position: relative;
+        min-height: 20vh;
+        max-height: 60vh;
+        height: 50vh;
+        width: 100%;
+        
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: 99%;
+        border-bottom: #d0d0d0 1px solid;
+        cursor: pointer;
+    }
+    
+    @media(max-width: 640px) {
+    
+        .container-fluid-banner{
+            background-attachment: fixed;
+            min-height: 15vh;
+            max-height: 25vh;
+            height: 25vh;
+            width: 100%;
+            background-image:url(bl.png) !important
+            
+        }
+    }
+   .btn{
+    font-size: 23px;color: white;
+   }
+   .btnsubmi{
+    margin-bottom: 30px;
+    color: white; font-size: 23px;
+   }
+    .btn{
+     background-color:#860301 ;
+     margin-bottom: 30px;
+     text-align: center;
+     color: #967956;
+     margin-top: 50px;
+     font-size: 25px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .container-fluid-bou{
+        background-color: #967956;
+        text-align: center;
+        position: relative;
+        margin-bottom: 20px;
+        
+        width: 100%;
+       
+    }
+   .sauve{
+       font-size: 15px;
+       margin-top: 5opx;
+       height: 10px;
+       width: 10px;
+       background-color: whitesmoke ;
+       
+       
+   }
+   .container-fluid-form{
+    background-color: #967956; 
+   }
+   .container-fluid-sos{
+    background-image: url(unnamed.png);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 20vh;
+    max-height: 60vh;
+    height: 33vh;
+    width: 100%;
+   }
+
+.container-fluid-so{
+ background-color: #967956;
+ background-size: cover;
+ background-attachment: fixed;
+ 
+ width: 100%;
+}
+.container-fluid-boue{
+    background-color: #967956;
+    text-align: center;
+    position: relative;
+  
+    width: 100%;
+   
+}
+
+.form-control{
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    margin-left: 35px;
+}
+.navbar-toggler-button{
+    background-color: #967956;
+}
