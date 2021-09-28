@@ -23,7 +23,7 @@
         max-height: 60vh;
         height: 50vh;
         width: 100%;
-        
+        background-image:url(bl.png) !important;
         background-size: cover;
         background-position-x: center;
         background-position-y: 99%;
@@ -42,6 +42,8 @@
             background-image:url(bl.png) !important
             
         }
+     
+
     }
    .btn{
     font-size: 23px;color: white;
@@ -50,21 +52,26 @@
     margin-bottom: 30px;
     color: white; font-size: 23px;
    }
-    .btn{
-     background-color:#860301 ;
-     margin-bottom: 30px;
-     text-align: center;
-     color: #967956;
-     margin-top: 50px;
-     font-size: 25px;
-     font-family: Georgia, 'Times New Roman', Times, serif;
-    }
+    
+    .go{
+        background-color:#860301 ;
+        margin-bottom: 30px;
+        text-align: center;
+        color: #967956;
+        margin-top: 50px;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white; font-size: 23px;
+       }
+  
+    
     .container-fluid-bou{
         background-color: #967956;
         text-align: center;
         position: relative;
         margin-bottom: 20px;
-        
+        padding-top: 20vh;
+        padding-bottom:20vh ;
         width: 100%;
        
     }
@@ -115,4 +122,47 @@
 }
 .navbar-toggler-button{
     background-color: #967956;
+}
+.nav-link {
+    color: white; font-size: 23px;
+}
+.conseil{
+    background-color: #860301; margin-top: 40px; color: whitesmoke;
+}
+.con{
+    margin-top: 10px;color: darkred;
+}
+.col{
+    color: white;
+}
+.container-fluid-bg{
+    background-image: url(images.jpg);
+    width: 100%;
+     height: 60vh;
+}
+
+.butonisncrip{
+    background-color: #860301;
+    color:white;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    
+}
+.alert{
+    color:white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.fonteowsome{
+    color: #860301;
+    font-size: 10vh;
+    padding: 10vh;
+}
+.success{
+    border: solid 1px white;
+    background-color: #967956;
+    color: #860301;
 }
